@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lecture04 - Table - Media - Form</title>
+
+	<style type="text/css">
+		body {
+			height: 11700vh;
+		}
+	</style>
+</head>
+<body>
+	<!-- Table -->
+	<table border="1" cellpadding="5px">
+		<caption>Employee Data</caption>
+		<thead>
+			<tr>
+				<td>First Name</td>
+				<td>Last Name</td>
+				<td>Age</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Ali</td>
+				<td>Mostafa</td>
+				<td>22</td>
+			</tr>
+			<tr>
+				<td>Mohamed</td>
+				<td>Ahamed</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>Ahamed</td>
+				<td>Samir</td>
+				<td>32</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">Family Name</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<table border="1" cellpadding="5px">
+		<caption>Employee Data Table Two</caption>
+
+			<tr>
+				<td>First Name</td>
+				<td>Last Name</td>
+				<td>Age</td>
+			</tr>
+	
+		
+			<tr>
+				<td>Ali</td>
+				<td>Mostafa</td>
+				<td>22</td>
+			</tr>
+			<tr>
+				<td>Mohamed</td>
+				<td>Ahamed</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>Ahamed</td>
+				<td>Samir</td>
+				<td>32</td>
+			</tr>
+		
+		
+			<tr>
+				<td colspan="3">Family Name</td>
+			</tr>
+		
+	</table>
+
+	<!-- Media -->
+	<audio controls muted autoplay loop>
+		<source src="C:\Users\MOHAMED\frontend-course2025\Lecture04\honor.mp3" type="audio/mp3">
+	</audio>
+	<br>
+	<video controls  muted loop width="100" height="100">
+		<source src="dev.mp4" type="video/mp4">
+	</video>
+	<track kind="subtitles" src="translate.vtt" srclang="en" label="English">
+	<track kind="subtitles" src="translate2.vtt" srclang="ar" label="Arabic">
+
+	<!-- Form -->
+	<form action="" method="POST">
+		<label>Username</label>
+		<input type="text" placeholder="username" name="username"> <br><br>
+		<label>Password</label>
+		<input type="password" placeholder="password" name="password">
+		<input type="email" name="email" placeholder="Email">
+		<br><br>
+		<textarea cols="20" rows="10" required></textarea>
+		<input type="number" name="price" min="10" max="50" required>
+		<input type="color" name="">
+		<input type="hidden" value="Mohamed">
+
+		<select>
+			<optgroup label="Languages">
+				<option>English</option>
+				<option>Arabic</option>
+				<option>Italy</option>
+			</optgroup>
+			<optgroup label="Lang">
+				<option>En</option>
+				<option>Ar</option>
+				<option>It</option>
+			</optgroup>
+		</select>
+		<input type="reset" name="" value="reset">
+		<input type="submit" value="Enter">
+	</form>
+
+</body>
+</html> 
