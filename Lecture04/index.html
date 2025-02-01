@@ -91,11 +91,11 @@
 	<track kind="subtitles" src="translate2.vtt" srclang="ar" label="Arabic">
 
 	<!-- Form -->
-	<form action="" method="POST">
+	<form action="" method="GET">
 		<label>Username</label>
-		<input type="text" placeholder="username" name="username"> <br><br>
+		<input type="text" placeholder="username" name="username" value="Mohamed"  readonly> <br><br>
 		<label>Password</label>
-		<input type="password" placeholder="password" name="password">
+		<input type="password" placeholder="password" name="password" autofocus>
 		<input type="email" name="email" placeholder="Email">
 		<br><br>
 		<textarea cols="20" rows="10" required></textarea>
@@ -103,7 +103,7 @@
 		<input type="color" name="">
 		<input type="hidden" value="Mohamed">
 
-		<select>
+		<select multiple name="select">
 			<optgroup label="Languages">
 				<option>English</option>
 				<option>Arabic</option>
@@ -115,8 +115,49 @@
 				<option>It</option>
 			</optgroup>
 		</select>
+		<br><br>
+
+		<div>
+			<input type="radio" name="gender" id="male" checked>
+			<label for="male">Male</label>
+		</div>
+
+		<div>
+			<input type="radio" name="gender" id="female">
+			<label for="female">Female</label>
+		</div>
+
+		<br><br>
+
 		<input type="reset" name="" value="reset">
 		<input type="submit" value="Enter">
+
+
+		<div>
+			<input type="checkbox" name="gender" id="ar">
+			<label for="ar">Arabic</label>
+		</div>
+
+		<div>
+			<input type="checkbox" name="gender" id="en" checked>
+			<label for="en">English</label>
+		</div>
+
+		<div>
+			<input type="checkbox" name="gender" id="it">
+			<label for="it">Italiano</label>
+		</div>
+
+		<br><br>
+
+		<input type="search" name="search">
+		<input type="file" name="upload">
+		<input type="url" name="" placeholder="Enter url only">
+
+		<input type="reset" name="" value="reset">
+		<input type="submit" value="Enter">
+
+
 	</form>
 
 </body>

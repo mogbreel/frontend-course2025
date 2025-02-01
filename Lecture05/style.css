@@ -1,0 +1,33 @@
+/* === Selector, Selector2 { property: value; } */
+/* This is Single line comment */
+/* 
+=== Line One 
+=== Line Two 
+=== Line Three
+=== Multi line comments
+*/
+ * {
+ 	text-align: center;
+ 	text-transform: uppercase;
+ }
+
+body {
+	background-color: /* HEX code */ #00f; /* text - RGB - RGBA - HEX - HSL - HSLA */
+	color: #fff;
+}
+
+.art1 > p {
+	color: red;
+}
+
+.art {
+	color: yellow;
+}
+
+#p1 {
+	color: black;
+}
+
+.p11 {
+	color: red;
+}
