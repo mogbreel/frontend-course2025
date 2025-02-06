@@ -1,0 +1,50 @@
+.father {
+	background-color: #ddd;
+}
+
+.father>p {
+	font-size: 20px;
+}
+
+.div-child {
+	background-color: red;
+}
+
+.div-child p {
+	font-size: 50px;
+}
+
+.div-child p:hover {
+	background-color: black;
+	color: red;
+}
+
+h1 + p {
+	font-size: 50px !important;
+}
+
+input[type] {
+	background-color: #fff;
+}
+
+input[type="text"] {
+	font-size: 16px;
+}
+
+input[type]:focus {
+  outline: 1px solid #f00;
+  background: none;
+}
+
+p:first-child {
+	color: #00f;
+}
+
+P:last-child {
+	font-size: 40px;
+}
+
+p:nth-child(3) {
+	font-size: 50px;
+	color: red;
+}
