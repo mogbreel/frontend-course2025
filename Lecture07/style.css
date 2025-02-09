@@ -1,0 +1,77 @@
+/* ===== All Settings ===== */
+* {
+	font-family: 'Kufi', Arial;
+}
+
+
+:root {
+	--primary: #555;
+}
+body {
+
+}
+html {
+color: var(--primary);
+}
+
+@font-face {
+    font-family: 'Kufi';
+    src: url('Kufi.ttf');
+}
+
+
+/* .header {
+	color: #f7b731;
+	font-size: 50px;
+	background-color: #8854d0;
+}
+
+.content-box {
+	background-color: #f7b731;
+	background-image: url(download.jfif);
+	background-attachment: fixed;
+} */
+
+.boxes {
+	background-color: #f2f2f2;
+	padding: 40px;
+}
+
+.boxes .box1 {
+	background: linear-gradient(to left, #2193b0, #6dd5ed);
+	padding: 10px;
+	/* margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px; */
+	margin: 10px;
+}
+.boxes .box2 {
+	background: linear-gradient(to left, #f53b57, #3c40c6);
+	padding: 10px;
+	margin: 10px;
+}
+.boxes .box3 {
+	background: linear-gradient(to left, #11998e, #38ef7d);
+	padding: 10px;
+	margin: 10px;
+}
+
+.pricing h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bloder;
+	text-align: justify;
+}
+
+.pricing p {
+	text-align: left;
+}
+
+.pricing a {
+	text-decoration:dotted;
+}
+
+.pricing a:hover {
+	text-decoration: underline;
+}
