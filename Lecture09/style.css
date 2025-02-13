@@ -1,0 +1,110 @@
+.container {
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid red;
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 10px;
+}
+
+
+
+.item1 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    grid-column-start: 1;
+    /* grid-column-end: 3; */
+    /* grid-column: 1 / span 3; */
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1 / span 2; */
+}
+
+.item2 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    /* grid-area: 1 / 2 / 4 / 5; */
+}
+
+.item3 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item4 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item5 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item6 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item7 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item8 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+.item9 {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/*====== MEDIA QUERY ==========
+===============================*/
+
+/*==== Small Screen =====*/
+@media (max-width: 479px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*==== Medium Screen =====*/
+@media (min-width: 768px) and (max-width: 991px) {         /* Break point */
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
