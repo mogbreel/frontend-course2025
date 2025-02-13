@@ -1,0 +1,100 @@
+/* CSS Units =
+px => pixel = 16px 
+% => percentage 
+rem => root element 
+em => element parant
+vh => viewport height
+vw => viewport width
+ */
+
+/* Border - Outline */
+/* .container {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.bord {
+    background-color: aqua;
+    padding: 20px 30px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    border: 10px solid #ff3;
+    border-radius: 50px;
+}
+
+.out {
+    background-color: orangered;
+    padding: 20px 30px;
+    width: 200px;
+    outline: 10px solid #ff3;
+} */
+
+.container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.box {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 30px;
+    width: 150px;
+    position: sticky !important;
+    top: 300px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.products {
+    background-color: #ddd;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.products .item1 {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.products .item2 {
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.products .item3 {
+    background-color: purple;
+    color: #fff;
+    padding: 20px 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.products .item4 {
+    background-color: aqua;
+    color: #fff;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
